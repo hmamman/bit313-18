@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+p {
+    margin: 0;
+}
+#wrapper {
+    width: 80%;
+    margin: 10px auto;
+}
+.menu {
+    background-color: chartreuse;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    width: 150px;
+    border-bottom: royalblue solid 1px;
+}
+
+.menu li > a {
+   background-color: aqua;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu.vertical li {
+    float: left;
+    width: 90px;
+    border-bottom: none;
+    border-right: royalblue solid 1px;
+}
+.menu.vertical li > a {
+
+}
+
+.menu li > a:hover {
+    background-color: royalblue;
+    color: white;
+}
